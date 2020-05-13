@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+p{
+    display: inline;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    color: rgb(66, 245, 120);
+}
+
+.square-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 20px;
+   
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-left: 20px;
+}
+
+.rectangle-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.rectangle{
+    width: 100px;
+    height: 120px;
+    background-color: rgb(66, 245, 242);
+    margin-left: 20px;
+}
+
+.circle-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 20px;
+    background-color: rgb(66, 167, 245);
+}
+
+.circle1-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.circle1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid rgb(69, 66, 245);
+    margin: 20px;
+}
+
+.triangle-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 20px;
+    position: absolute;
+    left: 300px;
+    top: 50px;
+}
+.triangle{
+    position: absolute;
+    left: 310px;
+    top: 100px;
+      width: 0;
+      height: 0;
+      border-bottom: 100px solid rgb(66, 129, 245);
+      border-right: 100px solid transparent;
+}
+
+.trapezoid-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 20px;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+}
+
+.trapezoid{
+    position: absolute;
+    left: 300px;
+    top: 270px;
+    border-bottom: 50px solid rgb(93, 66, 245);
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;
+}
+
+.parallelogram-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 20px;
+    position: absolute;
+    left: 300px;
+    top: 320px;
+}
+
+.parallelogram{
+    position: absolute;
+    left: 300px;
+    top: 380px;
+    width: 150px;
+	height: 80px;
+	transform: skew(20deg);
+	background: rgb(50, 168, 151);
+}
